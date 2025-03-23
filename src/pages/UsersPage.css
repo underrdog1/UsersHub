@@ -1,0 +1,26 @@
+.add-user-link {
+    letter-spacing: 0.1px;
+    color: #007bff;
+    ;
+    font-size: 25px;
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 50px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    background-color: #fff;
+    border: 1px solid #007bff;
+    cursor: pointer;
+}
+
+.add-user-link:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.add-user-link:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
