@@ -4,9 +4,17 @@
   box-sizing: border-box;
 }
 
-body {
+#root {
+  width: 100dvw;
+  height: 100dvh;
+}
+
+body,
+html {
   font-family: "Inter", sans-serif;
   background-color: aliceblue;
+  width: 100dvw;
+  height: 100dvh;
   color: #333;
 }
 
@@ -28,9 +36,10 @@ button.primary:hover {
   background: #0056b3;
 }
 
-input, select {
+input,
+select {
   padding: 10px;
-  margin: 5px ;
+  margin: 5px;
   border-radius: 5px;
   border: 1px solid #ccc;
   font-size: 14px;

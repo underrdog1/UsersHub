@@ -1,8 +1,16 @@
 .user-card {
     padding: 20px;
     background-color: #fff;
+    width: 100%;
     border: 1px solid #ddd;
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
   }
   
   .user-card .user-name {
@@ -11,25 +19,26 @@
   }
   
   .user-card p {
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     font-size: 16px;
     color: gray;
   }
   
   .user-card h3 {
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
   }
 
   .user-card a {
     box-sizing: border-box;
     background-color:rgb(16, 144, 195);
     color: #ffffff;
-    margin: 30px auto;
+    /* margin: 30px auto; */
     padding: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
+    text-align: center;
   }
   
   .user-card a:hover {
